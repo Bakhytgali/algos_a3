@@ -39,7 +39,7 @@ public E peek(){
         return (E) arrayList.get(0);
     }
 ```
-### 4. `public void checkEmpty()` function
+### 5. `public void checkEmpty()` function
 **Desctiption:** This method throw exception if the queue is empty. 
 <br><br>
 **Solution:** 
