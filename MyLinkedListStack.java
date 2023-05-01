@@ -8,4 +8,10 @@ public class MyLinkedListStack<E> {
     public boolean isEmpty(){
         return linkedList.size() == 0;
     }
+    public void checkEmpty(){
+        if(isEmpty()){
+            throw new EmptyStackException();
+        }
+    }
+
 }
