@@ -7,4 +7,7 @@ public class MyLinkedListStack<E> {
     public void add(Object el){
         linkedList.add((E) el);
     }
+    public void add(Object el, int index){
+        linkedList.add(index, (E) el);
+    }
 }
