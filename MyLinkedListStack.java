@@ -16,5 +16,8 @@ public class MyLinkedListStack<E> {
     public int size(){
         return linkedList.size();
     }
-    
+    public E pop(){
+        checkEmpty();
+        return (E) linkedList.remove(linkedList.size() - 1);
+    }
 }
