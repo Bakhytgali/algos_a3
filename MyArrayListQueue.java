@@ -8,4 +8,7 @@ public class MyArrayListQueue<E> {
     public void enqueue(E el){
         arrayList.add(el);
     }
+    public boolean isEmpty(){
+        return arrayList.size() == 0;
+    }
 }
