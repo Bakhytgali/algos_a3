@@ -20,4 +20,8 @@ public class MyLinkedListStack<E> {
         checkEmpty();
         return (E) linkedList.remove(linkedList.size() - 1);
     }
+    public E peek(){
+        checkEmpty();
+        return (E) linkedList.get(linkedList.size() - 1);
+    }
 }
