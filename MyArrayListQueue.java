@@ -8,7 +8,7 @@ public class MyArrayListQueue<E> {
     public void enqueue(E el){
         arrayList.add(el);
     }
-    public void dequeue(){
+    public E dequeue(){
         checkEmpty();
         return (E) arrayList.remove(0);
     }
