@@ -1,14 +1,7 @@
+import java.util.LinkedList;
 public class MyLinkedListStack<E> {
-    private class Node<E>{
-        E el;
-        Node<E> next;
-        Node<E> prev;
-        Node (E el, Node next, Node prev){
-            this.el = el;
-            this.next = next;
-            this.prev = prev;
-        }
+    LinkedList<E> linkedList = new LinkedList<>();
+    public int size(){
+        return linkedList.size();
     }
-    private Node<E> head;
-    private Node<E> tail;
 }
