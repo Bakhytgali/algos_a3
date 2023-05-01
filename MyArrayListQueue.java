@@ -11,4 +11,9 @@ public class MyArrayListQueue<E> {
     public boolean isEmpty(){
         return arrayList.size() == 0;
     }
+    public void checkEmpty(){
+        if(isEmpty()){
+            throw new EmptyStackException();
+        }
+    }
 }
