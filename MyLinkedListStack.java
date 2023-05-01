@@ -5,5 +5,7 @@ public class MyLinkedListStack<E> {
     public void push(E el){
         linkedList.push(el);
     }
-
+    public boolean isEmpty(){
+        return linkedList.size() == 0;
+    }
 }
