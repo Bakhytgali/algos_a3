@@ -13,5 +13,8 @@ public class MyLinkedListStack<E> {
             throw new EmptyStackException();
         }
     }
-
+    public int size(){
+        return linkedList.size();
+    }
+    
 }
