@@ -9,4 +9,6 @@ public class MyLinkedListStack<E> {
             this.prev = prev;
         }
     }
+    private Node<E> head;
+    private Node<E> tail;
 }
