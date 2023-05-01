@@ -16,4 +16,7 @@ public class MyArrayListQueue<E> {
             throw new EmptyStackException();
         }
     }
+    public int size(){
+        return arrayList.size();
+    }
 }
