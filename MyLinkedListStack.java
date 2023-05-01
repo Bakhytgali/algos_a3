@@ -1,13 +1,9 @@
 import java.util.LinkedList;
+import java.util.EmptyStackException;
 public class MyLinkedListStack<E> {
     LinkedList<E> linkedList = new LinkedList<>();
-    public int size(){
-        return linkedList.size();
+    public void push(E el){
+        linkedList.push(el);
     }
-    public void add(Object el){
-        linkedList.add((E) el);
-    }
-    public void add(Object el, int index){
-        linkedList.add(index, (E) el);
-    }
+
 }
