@@ -4,4 +4,7 @@ public class MyLinkedListStack<E> {
     public int size(){
         return linkedList.size();
     }
+    public void add(Object el){
+        linkedList.add((E) el);
+    }
 }
