@@ -3,5 +3,10 @@ public class MyLinkedListStack<E> {
         E el;
         Node<E> next;
         Node<E> prev;
+        Node (E el, Node next, Node prev){
+            this.el = el;
+            this.next = next;
+            this.prev = prev;
+        }
     }
 }
