@@ -25,6 +25,6 @@ public class MyArrayListQueue<E> {
     }
     public E peek(){
         checkEmpty();
-        return E array.get(0);
+        return (E) arrayList.get(0);
     }
 }
