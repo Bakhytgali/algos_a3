@@ -10,7 +10,7 @@ public void enqueue(E el){
         arrayList.add(el);
     }
 ```
-### 2. `public void dequeue()` function
+### 2. `public E dequeue()` function
 **Desctiption:** This method removes and returns the front element of the queue. 
 <br><br>
 **Solution:** 
